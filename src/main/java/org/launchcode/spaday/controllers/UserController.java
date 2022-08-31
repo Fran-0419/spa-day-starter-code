@@ -12,7 +12,7 @@ public class UserController {
     @GetMapping("add")
     @ResponseBody
     public String displayAddUserForm(){
-        return "/user/add";
+        return "/user/index";
     }
 
     @PostMapping
